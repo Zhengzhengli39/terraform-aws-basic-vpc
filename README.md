@@ -34,3 +34,9 @@ This module creates the following AWS resources:
 3. Initialize Terraform:
    ```bash
    terraform init
+4. Review execution plan:
+   ```bash
+   terraform plan
+5. Apply configuration:
+   ```bash
+   terraform apply
