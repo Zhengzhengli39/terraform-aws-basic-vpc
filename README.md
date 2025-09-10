@@ -1,12 +1,13 @@
 # Terraform AWS Basic VPC
 
-A simple, educational Terraform module that deploys a foundational VPC (Virtual Private Cloud) infrastructure on AWS. This project demonstrates core Infrastructure as Code (IaC) principles and serves as a learning resource for aspiring cloud engineers.
+An educational Terraform project that provisions a basic yet flexible Virtual Private Cloud (VPC) environment on AWS.
+It is designed as a hands-on learning resource for Infrastructure as Code (IaC) practices, providing a starting point for more advanced networking deployments.
 
 ## 🌟 Features
 
-- Creates a VPC with a configurable CIDR block
-- Provision public and private subnets across multiple Availability Zones
-- Sets up Internet Gateway for public subnet internet access
+- Deploys a customizable VPC with user-defined CIDR ranges
+- Creates both public and private subnets distributed across multiple Availability Zones for high availability
+- Attaches an Internet Gateway to support internet-facing resources
 - Configures route tables for proper traffic routing
 - Implements basic network security with NACLs and Security Groups
 
