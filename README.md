@@ -40,3 +40,4 @@ This module creates the following AWS resources:
 5. Apply configuration:
    ```bash
    terraform apply
+6
