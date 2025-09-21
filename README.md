@@ -41,3 +41,12 @@ This module creates the following AWS resources:
    ```bash
    terraform apply
 
+### Quick Start
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/terraform-aws-basic-vpc.git
+   cd terraform-aws-basic-vpc
+
+2. Review and modify variables in `terraform.tfvars` (create if it doesn't exist):
+
